@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  display: flex; }
+
+aside {
+  width: 18%;
+  display: flex;
+  flex-direction: column; }
+  aside li {
+    display: flex; }
+  aside a {
+    color: black;
+    padding: 5%; }
+  aside h5 {
+    padding: 2%; }
+  aside h3 {
+    padding-top: 5%;
+    font-size: 18px;
+    color: #d4d4d6; }
+  aside .header-logo img {
+    width: 100%; }
+  aside .Browse-music {
+    width: 100%;
+    padding: 8%; }
+
+main {
+  background: #F3F4F8;
+  width: 100%;
+  height: 100vh; }
+
+header {
+  background:#00c7d0 url("../img/WhatsApp Image 2018-01-29 at 16.40.22.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  padding: 4em 6em ;
+  color: #fff; }
+  header .button-click {
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.322);
+    border-radius: 20px;
+    width: 100%;
+    color: #fff; }
+  header a {
+    color: #fff; }
+
+.Tracks-list {
+  padding: 100px 100px 0 100px; }
+  .Tracks-list table {
+    width: 100%; }
+    .Tracks-list table th {
+      padding: 10px;
+      text-align: left; }
+      .Tracks-list table th td {
+        padding: 10px; }

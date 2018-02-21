@@ -1,0 +1,72 @@
+  /**
+  * Contents
+  *
+  *   1. Imports
+  *   2. Starter Template
+  */
+
+/* 1. Imports
+-------------------------------------------*/
+
+@import "bootstrap-custom";
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+
+@import 'partials/ex20';
+
+
+/* 2. Starter Template
+-------------------------------------------*/
+
+/* body {
+  padding-top: 5rem;
+}
+
+.custom-boilerplate {
+  h1 {
+    color: #217cb9;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.components {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  
+  h2 {
+    color: rgb(143, 143, 143);
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.accordion {
+  .card {
+    margin-bottom: 0.25rem;
+  }
+
+  .card-header {
+    padding: 0.25rem;
+
+    .btn-link {
+      font-weight: 700;
+      text-align: left;
+      display: block;
+      width: 100%;
+    }
+  }
+} */
+body{
+  background: #e8dfd5;
+.container{
+  /* box-shadow: 1px 1px 1px 1px #2e2d2b; */
+.card-left {
+  background: #FDFAF2;
+/*   border-left: 1px solid rgb(139, 37, 37); */
+.card-reight {
+  background-position: top center;
+  background-size: contain;
+  }
+}}}

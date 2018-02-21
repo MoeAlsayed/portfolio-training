@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+html *{
+    box-sizing: border-box;  
+}
+body{
+    padding: 30px;
+    background-image: url("photo-1464061884326-64f6ebd57f83.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+    
+
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+/*Typography*/
+h1{
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h2{
+    font-weight: 400;
+    margin-top: 0;
+}
+/* link styling */
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0px -1px 2px;
+}
+/* header */
+header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: rgba(163, 139, 136, 0.425);
+    
+
+}
+header img{
+    position: relative;
+    float: left;
+    height: 20px;
+    margin-top: 15px;
+}
+header form{
+    position: relative;
+    float: right;
+    margin-top: -7px;
+}
+/* navigation */
+nav{
+    position: relative;
+    float: right;
+    font-size: 16px;
+    margin-top: 50px;
+    width: 100%;
+}
+nav ul{
+    margin: 0 auto;
+    width: 70%;
+    padding-left: 0;
+}
+nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+/* main content */
+main{
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(163, 139, 136, 0.425);
+    
+}
+
+
+/* article link */
+article{
+    position: relative;
+    float: right;
+    margin-right: 0;
+    padding: 38px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    
+}
+}
+
+.article-section{
+    padding-bottom: 10px;
+}
+/* selecting the last <a> inside the .article-section to remove the margin on the right side */
+.article-section a:last-child article{
+    margin-right: 0;
+}
+aside video{
+    position: relative;
+    text-align: center;
+
+}
+video{
+     width: 750px; 
+     transition: all 1s ease;      
+}
+
+video:hover {
+    transform: scale(1.1);
+}
+
+p{
+    /* text-align: center; */
+    font-size: 14px;
+
+}
+article img{
+    transition: all 1s ease;
+
+}
+article img:hover {
+    transform: scale(1.8);
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+input#Search {
+    width: 0;
+    border: none;
+    transition: all .5s ease;
+}
+
+input#Search:focus {
+    width: 150px;
+}

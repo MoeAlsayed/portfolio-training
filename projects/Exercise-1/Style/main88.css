@@ -1,0 +1,169 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  body{
+    background: #800000;
+    font-family: sans-serif;
+  
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  main{
+    width: 70%;
+    height: 700px;
+    border: 1px solid #333;
+    margin: 150px auto;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 15px #222;
+    border-radius: 20px;
+  }
+  .leftSec ,.rightSec{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+  
+  
+  }
+  /*************left Section************/
+  .leftSec{
+    background: #00DAC5;
+    padding: 20px;
+    border-radius:   10px 0 0 10px;
+  }
+  .leftSec #icon1{
+    color: white;
+    font-size: 2em;
+  }
+  .leftSec .midText{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    margin-top: 140px;
+  }
+  .leftSec #bgImg1{
+    text-align: center;
+    font-size: 9em;
+    margin: 20px 0 60px 0;
+    color:#fff;
+  }
+  .leftSec .pointGroup{
+    margin-top: 30px;
+    font-size: 3em;
+    text-align:center;
+  }
+  .leftSec .pointGroup a{
+    color: #fff;
+  }
+  /********************rigth Section******************/
+  .rightSec{
+    background: #333;
+    padding: 20px;
+      border-radius:  0 10px 10px 0;
+  }
+  .rightSec .topBtn{
+    padding: 10px;
+    text-align: right;
+  }
+  .rightSec #topSignUpBtn, .rightSec #topSignInBtn{
+    display: inline-block;
+    padding:5px 8px;
+    font-size: 0.8em;
+  }
+  .rightSec #topSignUpBtn{
+    background: #00DAC5;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+      box-shadow: 2px 2px 10px #222;
+  
+  }
+  .rightSec #topSignInBtn{
+    background: #444;
+    border-radius: 20px 0 0 20px;
+    color: #999;
+      box-shadow: 2px 2px 10px #333;
+  }
+  .rightSec .topLink{
+    margin: 140px 0 30px 0;
+    padding-left: 10%;
+     color: #777;
+    font-weight: 100;
+  }
+  .rightSec .topLink a{
+    font-size: 1.4em;
+    color: #777;
+    font-weight: 100;
+  
+  }
+  .rightSec .topLink .activeLink{
+    color: #eee;
+    border-bottom: 2px solid #00DAC5;
+  }
+  .rightSec ul{
+    display:block;
+    padding-left: 20px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .rightSec ul li{
+    padding-top: 10px;
+  }
+  .rightSec ul li label{
+    display: block;
+    color: #eee;
+    text-transform: uppercase;
+  }
+  .rightSec ul li input[type="text"],
+  .rightSec ul li input[type="password"],
+  .rightSec ul li input[type="email"]{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #444;
+    height: 2em;
+    width: 100%;
+    color: #999;
+  }
+  .rightSec ul li input[type="checkbox"]{
+    margin-top:30px;
+    background-color: #00DAC5;
+    border: none;
+  }
+  .rightSec ul li #checkLabel{
+    display: inline-block;
+    padding-left: 10px;
+    color: #777;
+    text-transform: none;
+  }
+  .rightSec ul li #checkLabel span{
+      color: #ddd;
+    border-bottom: 1px solid #00DAC5;
+  
+  }
+  .rightSec ul li:last-child{
+    padding-top: 30px;
+  }
+  .rightSec ul li:last-child #sendBtn{
+     background: #00DAC5;
+     border: none;
+     border-radius: 20px 20px 20px 20px;
+     color: #fff;
+     box-shadow: 2px 2px 10px #222;
+     width: 140px;
+     padding: 10px;
+     font-size: 0.8em
+  }
+  .rightSec ul li:last-child a{
+    margin-left: 30px;
+    color: #777;
+    font-size: 0.8em;
+    border-bottom: 1px solid #777;
+    line-height: 40px;
+  }

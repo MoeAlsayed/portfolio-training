@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form exercise</title>
+
+	<link rel="stylesheet" href="main8.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+	<main class="clearfix">
+
+		<!-- section-1 start -->
+		<section class="section-1">
+
+			<img src="" alt="LOGO">
+
+			<h1>Plan your activities and control your progress online</h1>
+
+			<div class="dots-group">
+				<div class="dots"></div>
+				<div class="dots active"></div>
+				<div class="dots"></div>
+				<div class="dots"></div>
+				<div class="dots"></div>
+			</div>
+
+		</section>
+
+		<!-- section-2 start -->
+		<section class="section-2">
+
+			<div class="button-group">
+				<a class="sign-in" href="">Sign in</a><a class="sign-up" href="">Sign up</a>
+			</div>
+
+			<form action="">
+
+				<h3>Sign in
+					<small>or</small>
+					<a href="">Sign Up</a>
+				</h3>
+
+				<fieldset>
+					<label for="fullName">Full Name</label>
+					<input id="fullName" type="text" name="fullName" placeholder="Please enter your full name" required>
+				</fieldset>
+
+				<fieldset>
+					<label for="password">Password</label>
+					<input id="password" type="password" name="password" placeholder="Enter your password please" required>
+				</fieldset>
+
+				<fieldset>
+					<label for="email">Your Email</label>
+					<input id="email" type="email" name="email" placeholder="Enter your email" required>
+				</fieldset>
+
+				<fieldset class="fieldset-checkbox">
+					<input id="checkbox" type="checkbox" name="terms" value="terms_agreed" required>
+
+
+					
+
+					<label for="checkbox">
+						<svg fill="#14D9B2" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0 0h24v24H0z" fill="none" />
+							<path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+							/> </svg> 
+							I agree to all statements in the
+							<a href="">terms of service</a>
+					</label>
+				</fieldset>
+
+				<input type="submit" value="Sign Up">
+
+				<a class="member-link" href="test/">I'm already a member</a>
+			</form>
+
+		</section>
+
+	</main>
+
+</body>
+
+</html>

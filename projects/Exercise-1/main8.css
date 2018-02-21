@@ -1,0 +1,213 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#cb6679,#9e3d58);
+    padding: 50px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #566478;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+h3 a {
+    border-bottom: 1px solid #6cdac6;
+    padding-bottom: 4px;
+}
+
+h3 small {
+    padding: 8px;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 10px 90px rgba(0,0,0,.5);
+}
+
+section {
+    width: 50%;
+    height: 480px;
+    float: left;
+    padding: 15px 40px;
+    position: relative;
+}
+
+.section-1 {
+    background: linear-gradient(#6fe0ca, #5fc2b7);
+    border-radius: 5px 0 0 5px;
+}
+
+.section-2 {
+    background: linear-gradient(#4d5168, #212d3e);
+    border-radius: 0 5px 5px 0;
+}
+
+form {
+    position: relative;
+    top: 13%;
+}
+
+.button-group {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.button-group a {
+    padding: 5px 10px;
+    font-size: 8px;
+    border-bottom: none;
+}
+
+.sign-in {
+    color: #677485;
+    background: #4b5c72;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.sign-up {
+    color: #fff;
+    background: linear-gradient(#6fe0ca, #5fc2b7);
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 5px 15px 
+    rgba(0,0,0,0.15);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #465567;
+    font-size: 9px;
+    padding: 7px 0;
+}
+
+a {
+    border-bottom: 1px solid #5fc2b7;
+}
+
+.fieldset-checkbox input {
+    width: auto;
+    margin: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.fieldset-checkbox label {
+    display: inline-block;
+    text-transform: unset;
+    color: #677485;
+    top: -4px;
+    position: relative;
+    font-size: 9px;
+}
+
+
+/* If the checkbox is checked the svg inside the label next to the checkbox, will get a new fill */
+.fieldset-checkbox input:checked + label svg {
+    fill: #6cdac6;
+}
+
+.fieldset-checkbox label svg {
+    fill: grey;
+    width: 12px;
+    height: 12px;
+}
+
+/* We are using an attribute selector right here, so we don't need to write a new class */
+input[type="submit"] {
+    background: linear-gradient(#6fe0ca, #5fc2b7);
+    border-radius: 15px;
+    border: none;
+    width: auto;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 10px;
+    box-shadow: 0 5px 15px 
+    rgba(0,0,0,0.15);
+}
+
+/* a[href="test/"] a way to use the attribute selector to select the same element  */
+a.member-link {
+    margin-left: 5px;
+    padding-bottom: 2px;
+    font-size: 8px;
+    opacity: 0.25; /* Opacity goes from 0 to 1 - Example: 0.25 or 0.75 */
+}
+
+/* DOTS */
+
+.dots-group {
+    /* Give the element an absolute positioning inside the parent container */
+    position: absolute;
+
+    /* position it 15px away from the bottom */
+    bottom: 15px;
+
+    /* position the left end of the element 50% away from the left of the parent container */
+    left: 50%;
+
+    /* move the group to the left by 50% */
+    transform: translate(-50%);
+}
+
+.dots {
+    opacity: 0.35;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.dots.active {
+    border: 1px solid #50a49b;
+    transform: scale(2);
+    box-shadow: 0 2px 5px 
+    rgba(0,0,0,0.25);
+}

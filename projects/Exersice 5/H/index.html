@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>DocumentH</title>
+</head>
+<body>
+    <main class="container">
+        <div class="filters-tools">
+            <div class="filters-tools-head clearfix">
+                <h1 class="filters-title">Filters</h1>
+                <a href="#" id="filters-back-arrow" class="clearfix">&#8592;</a>
+            </div>
+            <div class="tools-group">
+                <h3 class="tools-title">Dates</h3>
+                <input type="date" class="filters-item" name="checkInDate" placeholder="Check in">
+                <input type="date" class="filters-item" name="checkOutDate" placeholder="Check out">
+            </div>
+            <div class="tools-group">
+                <h3 class="tools-title">Price Range</h3>
+                <input type="range" name="priceRange" class="filters-item" id="priceRange" value="90"  multiple>
+                <label><span id="price1">$80</span><span id="price2">$1800</span></label>
+            </div>
+            <div class="tools-group">
+                <h3 class="tools-title">Guests</h3>
+                <select class="filters-item">
+                    <option value="g1" selected>1 Guest</option>
+                    <option value="g2">2 Guests</option>
+                    <option value="g3">3 Guests</option>
+                    <option value="g4" >4 Guests</option>
+                </select>
+            </div>
+            <div class="tools-group">
+                <h3 class="tools-title">Facilities</h3>
+                <select class="filters-item" name="apartmentType">
+                    <option value="noType" selected>Type of Apartment</option>
+                    <option value="type1">Type 1</option>
+                    <option value="type2">Type 2</option>
+                    <option value="type3">Type 3</option>
+                </select>
+                <div class="filters-item check-group">
+                    <label for="pool">Swimming Pool</label>
+                    <input type="checkbox" id="pool" checked>
+                </div>
+                <div class="filters-item check-group">
+                    <label for="Fireplace">Fireplace</label>
+                    <input type="checkbox" id="Fireplace">
+                </div>
+            </div>
+            <a href="#" id="more-filters-link"><span>+</span> More Filters</a>
+        </div>
+        <section class="result">
+            <div class="apart-des">
+                <div class="apart-des-head">
+                    <h1 class="apart-des-titel">Rentals.</h1>
+                    <span class="pages-map"><a href="#">Homes &#8250; </a><span>Apartments</span></span>
+                </div>
+                <p class="place"><i class="material-icons apart-place">place</i>Barcelona</p>
+                <h1 class="apart-title">Charming &#38; very spacious</h1>
+                <p class="apart-comm">The apartment is well located and equipped. Very clean. Transfer was excellent. All as described. Host is very friendly and helpful. We can very much recommend this location. Thanks for a beautiful and comfortable stay my family and I enjoyed.</p>
+                <div class="owner-box">
+                    <div class="owner-img">
+                        <span class"image-star">&#9733;</span>
+                    </div>
+                    <div class="owner-name-box">
+                        <h2>Hosted By</h2>
+                        <h2 id="owner-name">Carla Poala</h2>
+                    </div>
+                </div>
+                <button class="back-btn">Request to Back &#8594;</button>
+            </div><div class="image-box">
+                <div class="image-box-head">
+                    <span class="apart-star">&#10025;</span>
+                    <span class="search-icon"><i class="material-icons">search</i></span>
+                </div>
+                <ul class="pages-slides">
+                    <li><a href="#" class="line-markt active-sec"></a></li><li><a href="#" class="line-markt"></a></li><li><a href="#" class="line-markt"></a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>

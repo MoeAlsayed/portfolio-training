@@ -1,0 +1,30 @@
+.box-set {
+    background: rgb(209, 177, 155);
+    }
+    
+    .main-box{
+        height: 600px;
+        width: 65%;     
+        background: #cccccc;
+        border: 1px solid;
+        float: left;
+        margin-right: 10px;
+    }
+    .aside-box{
+        height: 600px;
+        width: 32%;
+        background: #cccccc;
+        border: 1px solid;
+        float: left;
+        
+    }
+    
+    .footer {
+        font-size: 50px;
+        height: 300px;
+        width: 100%;
+        margin-right: 5px;
+        background: #75fc53;
+        border: 3px solid;
+        clear: both;
+    }

@@ -1,0 +1,52 @@
+body {
+    padding: 100px;
+    background: linear-gradient(325deg,#006ac5, #11b0e0);
+}
+main.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+main.container img{
+    margin-bottom: -7px;
+    margin-left: 9px;
+    opacity: 0.4;
+}
+.article-Video{
+    border-left: 4px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(192, 126, 126);
+    background: #ffffff;
+    position: relative
+}
+.article-Video video {
+    border-left: 4px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(192, 126, 126);
+    background: #838080;
+    position: relative
+}
+.article-Video h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #515166;
+}
+
+.article-Video h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: regular;
+    opacity: 0.4;
+}
+
+button {
+    padding: 10px;
+    background: rgb(67, 94, 145);
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(12, 14, 153);
+
+}

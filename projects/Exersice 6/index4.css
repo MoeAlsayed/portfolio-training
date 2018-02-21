@@ -1,0 +1,141 @@
+/* Adding a new font from fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+    body{
+        background: rgb(209, 177, 155);
+        padding: 50px;
+        font-family: 'Roboto', sans-serif; /* declaring the new font */
+        }
+        /* Contains the cards*/
+    section{
+        display: block;
+        margin: 0 auto;
+        width: 460px;
+        height: auto;
+    }
+    .card {
+        width: 170px;
+        float: left;
+        padding: 15px;
+        position: relative;
+    }
+    .A-card{
+        background: #c4f552;
+        border: 1px solid;
+        color: brown;
+        z-index: 1;
+
+        }
+      
+
+    .B-card{
+        background: #5380fc;
+        border: 1px solid;
+        box-shadow: -10px 10px 100px rgba(0, 0, 0, 0.418);
+        color: rgb(73, 73, 231);
+        left: -50px; /* pull it to the left */
+        top: -50px;
+        z-index: 2;
+        }
+        /* Styling the div.time */
+.time {
+	position: relative;
+	border-top: 1px solid #000;
+}
+
+/* Creating the circle at the timeline */
+.time::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -5px;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: red;
+}
+
+/* Clearfix hack to fix the floated layout */
+.time::after {
+	content: ""; /* leave the content empty */
+	
+	display: table; /* declare the display property*/
+	
+	clear: both; /* fix the float layout */
+}
+
+.time-left {
+	position: relative;
+	z-index: 2;
+	float: left;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.time-right {
+	float: right;
+}
+
+.card-1 .time {
+	border-top-color: #7c8ebd;
+}
+
+.card-2 .time {
+	border-top-color: #ed8f55;
+}
+
+.card-1 .time::before {
+	background: #7c8ebd;
+}
+
+.card-2 .time::before {
+	background: #ed8f55;
+}
+
+.card-1 .time-left {
+	background: rgb(191, 191, 255);
+}
+
+.card-2 .time-left {
+	background: #fbeca5;
+}
+
+/* Typography */
+h3 {
+	font-weight: 300;
+	margin-top: 0;
+}
+
+h6 {
+	font-size: 10px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h6.sub {
+	margin-bottom: 140px;
+}
+
+/* Creating the circle at the top */
+h6.sub::before {
+	content: "";
+	display: block;
+	position: relative;
+	background: red;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+.card-1 h6.sub::before {
+	background: #7c8ebd;
+}
+
+.card-2 h6.sub::before {
+	background: #ed8f55;
+}
+
+p {
+	font-size: 9px;
+}

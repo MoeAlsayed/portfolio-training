@@ -1,0 +1,42 @@
+html *{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    
+    
+}
+section.Box1{
+    width: 28%;
+    background: #FDF8F5;
+}
+form{
+    margin: 40px;
+}
+header{
+    display: flex;
+    flex-direction:row;
+}
+header h1,section.Box2 header h3{
+    font-size: 18px;
+    margin: 0 auto;
+}
+section.Box2{
+    width: 36%;
+    background: #FFFFFF;
+    margin: 40px;
+}
+section.Box2 header h3{
+    font-size: 18px;
+    margin: 0 auto;
+}
+section.Box3{
+    width: 36%;
+    background: url("jason-briscoe-332508.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+        <!-- Box1 with header and inputs -->
+        <section class="Box1">
+            <form>
+            <header>
+                <h1>Filters</h1>
+                <a href="#">
+                    <i class="material-icons">keyboard_backspace</i>
+                </a>
+            </header>
+            
+                <fieldset>
+                    <label>DATES</label>
+                    <input type="date" name="Check in" id="check in" value="Check in">
+                    <input type="date" name="Check Out" id="check Out" value="Check Out">
+                </fieldset>
+                <fieldset>
+                    <label>PRICE RANGE</label>
+                    <input type="range" name="Price Range" id="Price Range">
+                </fieldset>
+                <fieldset>
+                    <label>GUESTS</label>
+                    <select name="Guests" id="guests">
+                        <option value="2 ">1 Gauests</option>
+                        <option value="3 ">2 Gauests</option>
+                        <option value="4" selected>3 Guests</option>
+                        <option value="5 ">4 Gauests</option>
+                        <option value="6 ">5 Gauests</option>
+                        <option value="7 ">6 Gauests</option>
+                        <option value="8 ">7 Gauests</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label for="Guests">FACLITISE</label>
+                    <select name="Guests" id="guests">
+                        <option value="1 "></option>
+                        <option value="2 "></option>
+                        <option value="3 "></option>
+                        <option value="4" selected>Type of Apartment</option>
+                        <option value="5 "></option>
+                        <option value="6 "></option>
+                        <option value="7 "></option>
+                        <option value="8 "></option>
+                    </select>
+                    <label>Swimming Pool</label>
+                    <input type="checkbox" value="" checked>
+                    <label> Fireplace</label>
+                    <input type="checkbox" value="">
+                    <h2>+ More Filters</h2>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Box2 -->
+        <section class="Box2">
+
+            <header>
+                <h3>Rentals.</h3>
+                <h4>Homes
+                    <a href="">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </h4>
+                <h4>Apartments</h4>
+            </header>
+
+            <a class="Adress-map" href="#">
+                <i class="	fa fa-map-marker">BARCELONA</i>
+            </a>
+
+            <p class="title-box2">Charming & Very Spacious</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perspiciatis id fugiat, magni soluta enim consequatur
+                explicabo sit error vel rem suscipit sapiente dolorum eum! Dignissimos quas cum necessitatibus non!</p>
+
+            <div class="The-Publisher">
+                <img class="Publisher" src="" alt="img">
+                <p>Hosted By
+                    <br>Carla Poala</p>
+            </div>
+
+            <button type="button">REQUEST TO BOOK
+                <i class="material-icons">keyboard_backspace</i>
+            </button>
+        </section>
+
+        <!-- Box-Right -->
+        <section class="Box3">
+            <header>
+            <i class="fa fa-star-o"></i>
+            <span class="glyphicon glyphicon-search"></span>
+            </header>
+        </section>
+</body>
+
+</html>
