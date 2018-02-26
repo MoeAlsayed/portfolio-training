@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="test.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Hallo World this is My First java script</h1>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <script>
+        console.log('Hello World from internal script index html!');
+        console.info('Hi');
+        var price1 = 5;
+        var price2 = 6;
+        var total = price1 + price2;
+        document.getElementById("demo").innerHTML =
+            "The total and price1 is: " + total;
+        var txt = "1";
+        var demos = price1 + txt;
+        document.getElementById("demo2").innerHTML = txt.length + demos;
+         
+    </script>
+
+</body>
+
+</html>
