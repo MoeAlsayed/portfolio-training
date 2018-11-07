@@ -1,15 +1,4 @@
-# Custom Bootstrap 4 Boilerplate
-
-This boilerplate was created to quickly start any new project using version 4 of the famous [Bootstrap Framework](http://getbootstrap.com/) and the [Font Awesome](http://fontawesome.io/) icons
-
-## What's included?
-
-* [Bootstrap 4](https://getbootstrap.com/)
-* [Font Awesome 4](https://fontawesome.com/)
-* [WebPack](https://fontawesome.com/):
-    * [Babel](https://babeljs.io/)
-    * [Autoprefixer](https://github.com/postcss/autoprefixer)
-    * [SCSS](http://sass-lang.com/)
+# published at https://moealsayed.github.io/portfolio...../
 
 ## Requirements
 
