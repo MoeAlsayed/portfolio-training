@@ -1,4 +1,4 @@
-# published at https://moealsayed.github.io/portfolio...../
+# published at https://moealsayed.github.io/portfolio-training/
 
 ## Requirements
 
